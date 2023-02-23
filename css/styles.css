@@ -1,0 +1,438 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Font families
+
+    font-family: 'Fraunces', serif;
+    font-family: 'Barlow', sans-serif;
+*/
+
+.sunnyside-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1440px;
+
+}
+
+.sunnyside-welcome
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("../images/desktop/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+}
+
+.navbar .logo
+{
+    margin: 30px 30px;
+
+}
+
+.hamburger
+{
+    display: flex;
+    align-self: center;
+    visibility: hidden;
+}
+
+.nav-links
+{
+    display: flex;
+    justify-items: space-between;
+    margin: 0px 60px;
+}
+
+.navbar .link
+{
+    color: hsl(0, 0%, 100%);
+    margin: 20px 20px;
+    text-decoration: none;
+}
+
+.contact 
+{
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+}
+
+.contact:hover
+{
+    animation: ease-in;
+}
+
+#hero
+{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.hero-section
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url();
+}
+
+.hero-title
+{
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    margin: 15px 0px;
+    color: white;
+}
+
+.hero-section svg
+{
+    align-self: center;
+    margin: 20px;
+}
+
+.hero-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand
+{
+    display: flex;
+    max-width: 1440px;
+}
+
+.brand a
+{
+    align-self: flex-start;
+    max-width: 1440px;
+    font-family: 'Fraunces', serif;
+    color: black;
+    font-size: 15px;
+    text-decoration-color: hsl(51, 100%, 49%);
+    text-decoration-thickness: 8px;
+}
+
+.audience
+{
+    display: flex;
+    max-width: 1440px;   
+}
+
+.audience a
+{
+    align-self: flex-start;
+    max-width: 1440px;
+    font-family: 'Fraunces', serif;
+    color: black;
+    font-size: 15px;
+    text-decoration-color: hsl(7, 99%, 70%);
+    text-decoration-thickness: 8px;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 100px 100px;
+}
+
+.content h3
+{
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+}
+
+.image
+{
+    max-width: 50%;
+}
+
+.captioned-imgs
+{
+    display: flex;
+    height: auto;
+    max-width: 1440px;
+    height: 600px;
+}
+
+.cpt-img
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 720px;
+    font-family: 'Fraunces', serif;
+}
+
+.cpt-img h4
+{
+    margin: 40px 0px;
+    font-size: 30px;
+}
+
+.cpt-img p
+{
+    height: 100px;
+    padding: 30px 8em;
+}
+
+.graphic-design
+{
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+    color: hsl(167, 40%, 24%);
+}
+
+.photography
+{
+    background-image: url("../images/desktop/image-photography.jpg");
+    color: hsl(198, 62%, 26%);
+}
+
+.testimonials
+{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 700px;
+    font-family: 'Fraunces', serif;
+}
+
+.testimonials h5
+{
+    color: hsl(232, 10%, 55%);
+    margin: 0px 0px;
+}
+
+.testimonials-title
+{
+    display: flex;
+    align-self: flex-end;
+    font-family: 'Fraunces', serif;
+    align-self: center;
+    text-align: center;
+    color: hsl(210, 4%, 67%);
+    font-size: 20px;
+    padding-top: 80px;
+}
+
+.client-testimonials
+{
+    display: flex;
+}
+
+.client
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: hsl(213, 9%, 39%);
+    align-self: center;
+    margin-bottom: 100px;
+}
+
+.testimonials .client p
+{
+    font-family: 'Barlow', sans-serif;
+    padding: 0px 40px;
+    margin: 20px 0px 0px 0px;
+}
+
+.client img
+{
+    border-radius: 50%;
+    align-self: center;
+    height: auto;
+    width: auto;
+    max-height: 80px;
+    max-width: 80px;
+    margin-bottom: 50px;
+}
+
+.client h5
+{
+    color: hsl(212, 27%, 19%);
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.client h6
+{
+    font-family: 'Barlow', sans-serif;
+    margin: 15px 0px 0px 0px;
+    font-size: 16px;
+    color: hsl(210, 4%, 67%);
+}
+
+.still-imgs
+{
+    display: flex;
+    max-width: 1440px;
+}
+
+.still-imgs img
+{
+    width: 25%;
+    margin: 0px 0px;
+}
+
+footer
+{
+    background-color: hsl(168, 34%, 41%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .logo
+{
+    margin-top: 40px;
+}
+
+footer .icons
+{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    margin: 60px;
+}
+
+footer .links
+{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 80px;
+}
+
+footer svg
+{
+    color: hsl(167, 40%, 24%);
+    margin: 20px 20px;
+}
+
+.footer-content
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer-links .icons
+{
+    display: flex;
+    justify-content: center;
+    margin: 0px 40px;
+}
+
+.footer-links
+{
+    display: flex;
+}
+
+.footer-links ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links ul li
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0px 40px;
+    color: hsl(167, 40%, 24%);
+}
+
+@media screen and (max-width: 600px)
+{
+    .sunnyside-welcome
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar
+    {
+        display: flex;
+    }
+
+    .hamburger
+    {
+        display: flex;
+        visibility: visible;
+    }
+
+    .brand
+    {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .audience
+    {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .content
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .audience .image
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-links
+    {
+        visibility: hidden;
+    }
+
+    .captioned-imgs
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .client-testimonials
+    {
+        width: 100%;
+        height: auto;
+    }
+}
